@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: cc5fb4d6f65434ed4bc73eff6db3a88b
+  productGUID: 01980d6fd13b8416fbce03cb687577b8
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -705,10 +705,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: ee7eb88d-e7b8-45b6-a7cd-120cc12658e2
+  cloudProjectId: 0565842b-16ee-4942-b12d-e8ce3562f56d
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: GH-SAP-BB 2024-07-10_08-15-14
+  projectName: GH-SAP-BB
   organizationId: shanicesmith
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
