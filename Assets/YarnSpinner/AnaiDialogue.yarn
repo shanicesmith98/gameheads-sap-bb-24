@@ -1,0 +1,60 @@
+﻿title: Start
+tags:
+---
+
+Kamiya: (Crap, it's Anai)
+
+Kamiya: Hey, welcome to Paradise!
+
+Kamiya: .....Anai, what would you like to order today?
+
+Anai: First off, Kamiya, this has got to be one of THE funniest moments in my life. You went for college to working in a food truck, A FOOD TRUCK!
+
+Kamiya: Well Anai, we all gotta make some kind of money after the fire.
+
+Anai: Aww I feel SOOO bad for you. Using a sob story to give you more money?
+
+-> [Ignore Anai and still serve her food]
+    Kamiya: [sigh] What would you like to eat?
+    Anai: Faka, you is the MOST desperate person I when see all day.
+    Kamiya: Soooooo what would you like?
+    Anai: Since you in such a hurry, I would like to eat TBA.
+    Kamiya: Ok, this will be finished in a bit, please wait patiently.
+    Anai: Just finish 'em. I'm hungry as shit and ain't gonna waste time on you anymore.
+    Kamiya: (Thank God she is done, she gets on my nerves all the damn time. Just when I thought I could go through this smoothly, I had to run into her off all damn days.)
+-> [Talk back to Anai]
+    Kamiya: K then. You can say all you want but I know you ain't talking. In college, you always struggled, and would never pay attention.
+    Anai: OK OK, I am sorry. I was kidding. You stay getting personal now.
+    Kamiya: Personal? Do you even know why I am working at a food truck. This fire.. took everything. I am trying to make money to just go to school. My family.. [sob].. people who lived in Lahaina, gone.
+    Anai: (Shit, now I just feel terrible for what happened)
+    Kamiya: [wipes tears] What, you feel bettah?
+    Anai: Look I am sor—
+    Kamiya: Ya KNOW what, leave. Get out of here.
+    Anai: Wai-
+    Kamiya: Now.
+    Anai: Whateva den.
+->[Ask to please stop respectfully]
+    Kamiya: Please, Anai. I am having a really hard time right now. Respectfully, can you please stop and order food.
+    Anai: Why should I stop? Who gon stop me? What are you going to do?
+    Kamiya: In full honesty, there is nothing I can do...after all, what do I have.
+    Anai: What did you just say?
+    Kamiya: What I am saying is there is nothing I can do. I need to serve food to as much people as I can so I can go back college. My family lost everything to the fire. I am in a hard situation and can barely survive right now. [quiet sob]
+    Anai: I-I didn't know.
+    Kamiya: [wipes tears] I know you didn't, but, well now you know. Anyway, would you like to order anything?
+    Anai: Uhh, I will have Food TBA.
+    Kamiya: Ok noted. I will have this out in a bit, please wait patiently.
+    Anai: Yeah of course.
+    Kamiya: ...
+    Anai: ...
+    Kamiya: [starts working again]
+    Anai: Wait, Kamiya—
+    Kamiya: Y-yeah?
+    Anai: I-I-I'm sorry for what happened.
+    Kamiya: It's ok. Hawai'i am I right?
+    Anai: Yeah, it's hard enough as is living hear with the cost of everything significantly higher then other states.
+    Kamiya: I'll start the food, will be finished in a bit.
+    Anai: Ok, thank you, Kamiya.
+
+
+<<fade_up 1.0>>
+===
