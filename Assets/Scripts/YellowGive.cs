@@ -22,7 +22,7 @@ public class YellowGive : MonoBehaviour
     {
         if ((gameplay.deleteFood == "y") && (gameplay.currentMeat == orderdMeat))
         {
-            Destroy(gameObject);
+            ChangeCharacter.currentCustomer = ChangeCharacter.currentCustomer + 1;
         }
     }
 }
