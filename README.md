@@ -8,3 +8,5 @@ Objective: 2D Dialogue-focused Food Truck Simulation Game
 Game Design Doc: TBD
 
 Trello: https://trello.com/b/2G0NRSCu/project-management
+
+GDD: https://docs.google.com/document/d/1OTthoW-Hs36CGU7LqH2nkUl0pHwKJn1I2Uf8IQcgj2M/edit
