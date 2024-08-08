@@ -27,27 +27,27 @@ public class FoodCreate : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (gameObject.name == "RedMaker")
+        if (gameObject.name == "SpamMusubi_RedMaker")
         { 
             Instantiate(RedObj, new Vector3(-18, -2.7f), RedObj.rotation);
             Instantiate(FoodAni, new Vector3(-9, 6f), FoodAni.rotation);
         }
         else
-            if (gameObject.name == "YellowMaker")
+            if (gameObject.name == "Poke_YellowMaker")
         {
             Instantiate(YellowObj, new Vector3(-18, -2.7f), YellowObj.rotation);
             Instantiate(FoodAni, new Vector3(-9, 6f), FoodAni.rotation);
 
         }
         else
-            if (gameObject.name == "BlueMaker")
+            if (gameObject.name == "Poi_BlueMaker")
         {
             Instantiate(BlueObj, new Vector3(-18, -2.7f), BlueObj.rotation);
             Instantiate(FoodAni, new Vector3(-9, 6f), FoodAni.rotation);
 
         }
         else
-            if (gameObject.name == "GreenMaker")
+            if (gameObject.name == "Lemonade_GreenMaker")
         {
             Instantiate(GreenObj, new Vector3(-18, -2.7f), GreenObj.rotation);
             Instantiate(FoodAni, new Vector3(-9, 6f), FoodAni.rotation);
