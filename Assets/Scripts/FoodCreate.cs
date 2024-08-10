@@ -6,10 +6,12 @@ using UnityEngine;
 public class FoodCreate : MonoBehaviour
 {
 
-    public Transform GreenObj;
-    public Transform BlueObj;
-    public Transform RedObj;
-    public Transform YellowObj;
+    public Transform LemonadeObj;
+    public Transform PoiObj;
+    public Transform MusubiObj;
+    public Transform PokeObj;
+    public Transform SaladObj;
+    public Transform WaterObj;
 
     public Transform FoodAni;
 
@@ -27,29 +29,43 @@ public class FoodCreate : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (gameObject.name == "SpamMusubi_RedMaker")
+        if (gameObject.name == "Musubi_Maker")
         { 
-            Instantiate(RedObj, new Vector3(-18, -2.7f), RedObj.rotation);
+            Instantiate(MusubiObj, new Vector3(-7, 0.6f), MusubiObj.rotation);
             Instantiate(FoodAni, new Vector3(-9, 6f), FoodAni.rotation);
         }
         else
-            if (gameObject.name == "Poke_YellowMaker")
+            if (gameObject.name == "Poke_Maker")
         {
-            Instantiate(YellowObj, new Vector3(-18, -2.7f), YellowObj.rotation);
-            Instantiate(FoodAni, new Vector3(-9, 6f), FoodAni.rotation);
-
-        }
-        else
-            if (gameObject.name == "Poi_BlueMaker")
-        {
-            Instantiate(BlueObj, new Vector3(-18, -2.7f), BlueObj.rotation);
+            Instantiate(PokeObj, new Vector3(-8, -0.08f), PokeObj.rotation);
             Instantiate(FoodAni, new Vector3(-9, 6f), FoodAni.rotation);
 
         }
         else
-            if (gameObject.name == "Lemonade_GreenMaker")
+            if (gameObject.name == "Poi_Maker")
         {
-            Instantiate(GreenObj, new Vector3(-18, -2.7f), GreenObj.rotation);
+            Instantiate(PoiObj, new Vector3(-6, 1.1f), PoiObj.rotation);
+            Instantiate(FoodAni, new Vector3(-9, 6f), FoodAni.rotation);
+
+        }
+        else
+            if (gameObject.name == "Lemonade_Maker")
+        {
+            Instantiate(LemonadeObj, new Vector3(-6, 1f), LemonadeObj.rotation);
+            Instantiate(FoodAni, new Vector3(-9, 6f), FoodAni.rotation);
+
+        }
+        else
+            if (gameObject.name == "Water_Maker")
+        {
+            Instantiate(WaterObj, new Vector3(-6, 0.6f), WaterObj.rotation);
+            Instantiate(FoodAni, new Vector3(-9, 6f), FoodAni.rotation);
+
+        }
+        else
+            if (gameObject.name == "Salad_Maker")
+        {
+            Instantiate(SaladObj, new Vector3(-7, 1.3f), SaladObj.rotation);
             Instantiate(FoodAni, new Vector3(-9, 6f), FoodAni.rotation);
 
         }

@@ -17,24 +17,34 @@ public class Dragger : MonoBehaviour {
             Vector2 mousePosition = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
             Vector2 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
             transform.position = objPosition;
-            if (gameObject.name == "red(Clone)")
+            if (gameObject.name == "Musubi(Clone)")
             {
                 gameplay.currentMeat = "Food1";
             }
             else
-                if (gameObject.name == "blue(Clone)")
+                if (gameObject.name == "Poi(Clone)")
             {
                 gameplay.currentMeat = "Food2";
             }
             else
-                if (gameObject.name == "green(Clone)")
+                if (gameObject.name == "Poke(Clone)")
             {
                 gameplay.currentMeat = "Food3";
             }
             else
-                if (gameObject.name == "yellow(Clone)")
+                if (gameObject.name == "Salad(Clone)")
             {
                 gameplay.currentMeat = "Food4";
+            }
+            else
+                if (gameObject.name == "Water(Clone)")
+            {
+                gameplay.currentMeat = "Food5";
+            }
+            else
+                if (gameObject.name == "Lemonade(Clone)")
+            {
+                gameplay.currentMeat = "Food6";
             }
         }
 
