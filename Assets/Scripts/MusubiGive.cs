@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FoodGiveRed : MonoBehaviour
+public class MusubiGive : MonoBehaviour
 {
     public string orderdMeat = "Food1";
 
@@ -20,7 +20,7 @@ public class FoodGiveRed : MonoBehaviour
 
     void OnMouseOver()
     {
-        if ((gameplay.deleteFood == "y") && (gameplay.currentMeat == orderdMeat))
+        if ((gameplay.deleteFood == "y") && (gameplay.currentFood == orderdMeat))
         {
             ChangeCharacter.currentCustomer = ChangeCharacter.currentCustomer + 1;
 

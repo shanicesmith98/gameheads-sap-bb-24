@@ -6,7 +6,7 @@ public class gameplay : MonoBehaviour
 {
 
     public static string deleteFood = "n";
-    public static string currentMeat;
+    public static string currentFood;
 
     internal static readonly int selectedSlot=0;
     public static int selectedItem=0;

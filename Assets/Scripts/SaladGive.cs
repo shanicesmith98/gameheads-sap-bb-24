@@ -1,10 +1,10 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GiveGreenFood : MonoBehaviour
+public class SaladGive : MonoBehaviour
 {
-    public string orderdMeat = "Food3";
+    public string orderdMeat = "Food4";
 
     // Start is called before the first frame update
     void Start()
@@ -20,10 +20,9 @@ public class GiveGreenFood : MonoBehaviour
 
     void OnMouseOver()
     {
-        if ((gameplay.deleteFood == "y") && (gameplay.currentMeat == orderdMeat))
+        if ((gameplay.deleteFood == "y") && (gameplay.currentFood == orderdMeat))
         {
             ChangeCharacter.currentCustomer = ChangeCharacter.currentCustomer + 1;
-
         }
     }
 }
