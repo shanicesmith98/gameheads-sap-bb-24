@@ -15,7 +15,7 @@ public class Menu : MonoBehaviour
 
     public void OnQuitButton ()
     {
-        // Load Credit Scene
+        SceneManager.LoadScene("Credits");
     }
 
 }
