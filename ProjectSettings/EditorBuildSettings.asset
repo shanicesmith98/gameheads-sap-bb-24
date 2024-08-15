@@ -12,6 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Drag n Drop 1.unity
     guid: aa48665f277fd41b9ae930964b5cbd15
   - enabled: 1
+<<<<<<< HEAD
+    path: Assets/Scenes/Credits.unity
+    guid: 4af2f1094edd94885a593ef4001307f5
+=======
     path: Assets/Scenes/LoadingScene.unity
     guid: 8c0d17142fd1047c1af670b97715763a
+>>>>>>> main
   m_configObjects: {}
