@@ -1,0 +1,1271 @@
+fileFormatVersion: 2
+guid: 7eddaf8cf5a614f9ba1437a1a8699e8a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8640
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd867dad4bfe4858bfe0f16ae49a175
+      internalID: -1242188285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 8640
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73d7d1e7b73745e59b166a1ac797ec7
+      internalID: 1958335853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 8640
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4d11c9fb4a74467ad6360421c54bfb
+      internalID: -1660503818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 8640
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e2bdcac5c7d46a8b286b54a00f33e4
+      internalID: -1938903368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7920
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0c90435142d428c80e2e173a5f6af3
+      internalID: -478565711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 7920
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6324d6fa76f054f3ab12e9137b3c5622
+      internalID: 770462468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 7920
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc3662eb79d64e4a85bd21520100cdb
+      internalID: 1484243355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 7920
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1147bc8da5be4c8d8e73bd44555b4f3
+      internalID: -1367253356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7200
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9738d2c07d27743fca96d9a18f9c2d48
+      internalID: -1921533226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 7200
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6876f32cb5434ed1b1cebcc8083a808
+      internalID: -1089980107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 7200
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f330bb085e3342bc80a731dc9e17333
+      internalID: -1489830554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 7200
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc09baa9ca2546efa48c3c77a15afad
+      internalID: -1351152856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc20fd3e1bcf4120a68e0ca6961a8a0
+      internalID: -1162624496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6480
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8540d38e6b2924183a191c3784550926
+      internalID: 878127897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 6480
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cc14f0e395543528c42cf68129d5d3
+      internalID: -566564361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 6480
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a46c53299d06414c8e49eba3f830dc6
+      internalID: -312302729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5760
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780bec0d034ad4e29918b3fb17634eae
+      internalID: 1747806095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5760
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7490a1873be504cbf83566e118aec78d
+      internalID: 771254874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5760
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1e8b04bdbeb45df9b5a21de3ea38bb
+      internalID: -944852988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 5760
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93286ab1f3fd41ac9dcf35c67d0be07
+      internalID: 907789236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5040
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9d5b529f1ad44d1af77e0511da066d
+      internalID: -801819409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5040
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9251fb87a197e43279fcfe93ba9d949e
+      internalID: 728154863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5040
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa23de529403347979cb1e7656878038
+      internalID: -1492182531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 5040
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e927e20997fe4645b067bd209bcabb4
+      internalID: -1557082683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4f571c38c234f0fac20bd1f8151114
+      internalID: 417135462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4320
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e446825731cc482ca5f079967ce2755
+      internalID: 85097113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 4320
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2502947b821b467b8acc4f3e3d4b73e
+      internalID: 1520549209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4320
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4090b94c3d764467688117d4ff69c3f2
+      internalID: -666275354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b59de57e268477fb2ee9a2763a09ce
+      internalID: 555916014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3600
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15259c4d479144fb0b8903895ea9238b
+      internalID: 696325316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3600
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb27fad29d364187ba805a811077b86
+      internalID: -1776346052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3600
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ea9b0cea00343d69d29ec5917caff4
+      internalID: -1173076872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2880
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c246ebded51074495bb8d71020356506
+      internalID: 1269648890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2880
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e00cb7d85d4245309b6442f202d240d
+      internalID: 1987892000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2880
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec53b1946f7f4ee383d78b2306659da
+      internalID: -1081767393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2880
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e6df7d736c5478fa2c864b12721375
+      internalID: 1580479443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b678d44fab7484f9b38eed556d3efd
+      internalID: 1913242714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2160
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec6bf0e98fa14556b507487ae4e83e9
+      internalID: 1052401770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2160
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303d31449077b4f01862a7ed430f82d2
+      internalID: -267224609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6f821934ed746f893ab4bcca275a76
+      internalID: 267683649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ce0548b5004453d9710d42adddb174
+      internalID: -693819627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1440
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd641c031d09c4c10a9facd1fdb3b1ae
+      internalID: -1623029737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1440
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d91b0dfb9fd7435683841e8aebc462f
+      internalID: 441317400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1440
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e62594ef848e4e478010d687bc62740
+      internalID: 1208106075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d04a383756942ecb303c2bb2c63de7
+      internalID: -2070938255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 720
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d22a20eacc5b4e55887a01733ca4af5
+      internalID: -1636174184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 720
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a4e82d8819b4556b33796827dd3953
+      internalID: -762350422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 720
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5a0db0bf5644111851301f504f2141
+      internalID: -1832464875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800bf44faa7594245b18456eb8eb4040
+      internalID: -1761738584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5698d4374cecc405db66e0dda368ed41
+      internalID: -303126954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7560099659b14182aa6143fd93f2efb
+      internalID: -2138782291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpamMusubi-spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 1280
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5241e2f835b8d417d870d370e763cf29
+      internalID: 203428005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpamMusubi-spritesheet_0: -1242188285
+      SpamMusubi-spritesheet_1: 1958335853
+      SpamMusubi-spritesheet_10: -1489830554
+      SpamMusubi-spritesheet_11: -1351152856
+      SpamMusubi-spritesheet_12: -1162624496
+      SpamMusubi-spritesheet_13: 878127897
+      SpamMusubi-spritesheet_14: -566564361
+      SpamMusubi-spritesheet_15: -312302729
+      SpamMusubi-spritesheet_16: 1747806095
+      SpamMusubi-spritesheet_17: 771254874
+      SpamMusubi-spritesheet_18: -944852988
+      SpamMusubi-spritesheet_19: 907789236
+      SpamMusubi-spritesheet_2: -1660503818
+      SpamMusubi-spritesheet_20: -801819409
+      SpamMusubi-spritesheet_21: 728154863
+      SpamMusubi-spritesheet_22: -1492182531
+      SpamMusubi-spritesheet_23: -1557082683
+      SpamMusubi-spritesheet_24: 417135462
+      SpamMusubi-spritesheet_25: 85097113
+      SpamMusubi-spritesheet_26: 1520549209
+      SpamMusubi-spritesheet_27: -666275354
+      SpamMusubi-spritesheet_28: 555916014
+      SpamMusubi-spritesheet_29: 696325316
+      SpamMusubi-spritesheet_3: -1938903368
+      SpamMusubi-spritesheet_30: -1776346052
+      SpamMusubi-spritesheet_31: -1173076872
+      SpamMusubi-spritesheet_32: 1269648890
+      SpamMusubi-spritesheet_33: 1987892000
+      SpamMusubi-spritesheet_34: -1081767393
+      SpamMusubi-spritesheet_35: 1580479443
+      SpamMusubi-spritesheet_36: 1913242714
+      SpamMusubi-spritesheet_37: 1052401770
+      SpamMusubi-spritesheet_38: -267224609
+      SpamMusubi-spritesheet_39: 267683649
+      SpamMusubi-spritesheet_4: -478565711
+      SpamMusubi-spritesheet_40: -693819627
+      SpamMusubi-spritesheet_41: -1623029737
+      SpamMusubi-spritesheet_42: 441317400
+      SpamMusubi-spritesheet_43: 1208106075
+      SpamMusubi-spritesheet_44: -2070938255
+      SpamMusubi-spritesheet_45: -1636174184
+      SpamMusubi-spritesheet_46: -762350422
+      SpamMusubi-spritesheet_47: -1832464875
+      SpamMusubi-spritesheet_48: -1761738584
+      SpamMusubi-spritesheet_49: -303126954
+      SpamMusubi-spritesheet_5: 770462468
+      SpamMusubi-spritesheet_50: -2138782291
+      SpamMusubi-spritesheet_51: 203428005
+      SpamMusubi-spritesheet_6: 1484243355
+      SpamMusubi-spritesheet_7: -1367253356
+      SpamMusubi-spritesheet_8: -1921533226
+      SpamMusubi-spritesheet_9: -1089980107
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
