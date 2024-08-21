@@ -9,7 +9,7 @@ public class Menu : MonoBehaviour
     {
         // TODO: Add progress bar to the loading screen
         // SceneManager.LoadScene("LoadingScene");
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
 
