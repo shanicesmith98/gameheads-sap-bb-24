@@ -7,9 +7,11 @@ tags:
 Kamiya: Hello! Welcome to Paradise! How may I help you today–Crap it's Anai.
 Anai: Hmm.. wait a minute.. Kamiya, is that you?
 <<set $npcExpression to "mono">>
+<<expression Anai mono>>
 Kamiya: ...Uh, hey, Anai.
 Anai: So, it really is you? WOW! This has got to be the highlight of my day so far! HAHAHA.
 <<set $npcExpression to "smug">>
+<<expression Anai smug>>
 Kamiya: Anai, what do you want? You making fun of me is wasting my time right now.
 Anai: I came by this truck because I was just feeling thirsty but after seeing you here, I’ve also laughed up an appetite. So, give me a poke bowl, minimum wage worker.
 ->[Give Anai the poke bowl]
@@ -17,25 +19,32 @@ Anai: I came by this truck because I was just feeling thirsty but after seeing y
     Kamiya: One poke bowl... coming right up.
     Anai: Come on, get to work, Kamiya, bumbai I going cruise at silver stars.
     <<set $npcExpression to "smug">>
+    <<expression Anai smug>>
     // give food item to player
     Kamiya: There is your food and I hope you enjoyed parad-
     Anai: Answer me this.
     <<set $npcExpression to "mono">>
+    <<expression Anai mono>>
     Anai: How did you go from going college for one culinary degree, to dropping out and working in one hamajang looking food truck? Like brah, this is a VERY sad sight to see!
     <<set $npcExpression to "smug">>
+    <<expression Anai smug>>
     Kamiya: Well Anai, some of us need to make a living somehow, not that you would know anything about that since you was born with one silver spoon in your mouth.
     Anai: HA! NO get mad at me and at the end of the day, you bettah remember I’m still in college.
     <<set $npcExpression to "angry">>
+    <<expression Anai angry>>
     Anai: And you’re still one college dropout working in a food truck, See you later, wage worker.
     <<set $npcExpression to "smug">>
+    <<expression Anai smug>>
     Kamiya: (Last time I when check, you were copying off my English assignments when you was to moloā to do 'em yourself.)
 ->[Yell at her]
     Kamiya: YA KNOW WHAT ANAI! YES I AM ONE MINIMUM WAGE WORKER BECAUSE UNLIKE YOUR ENTITLED RICH ASS I LOST NEARLY EVERYTHING WHEN THE FIRES IN MAUI HAPPENED!
     Anai: Brah, I was just kidding, you no need to-
     <<set $npcExpression to "mono">>
+    <<expression Anai mono>>
     Kamiya: Well there is nothing to be KIDDING about. You come over here for make fun of me for dropping out which is hella insensitive, ESPECIALLY if you don’t have a clue of what I’ve been through *My anger got the best of me, I didn’t notice I started to tear up*
     Anai: …I’m…sorry…I guess?
     <<set $npcExpression to "upset">>
+    <<expression Anai upset>>
     Kamiya: You guess you're sorry? Are you that much in your own head you can’t even apologize properly? *rubs face in irritation*
     Anai: I—
     Kamiya: Just go, now!
@@ -49,16 +58,20 @@ Anai: I came by this truck because I was just feeling thirsty but after seeing y
     Kamiya: Well, yeah I understand but once again, I no like your joke so chill.
     Anai:  Still the sensitive type I see, just like in college.
     <<set $npcExpression to "mono">>
+    <<expression Anai mono>>
     Kamiya: Do you still want the poke bowl?
     Anai: Ugh, nah I lost my appetite since you don’t know how to take a joke. Just gimme a bottle of water, I need to keep my figure in shape anyways since I have a photoshoot later. 
     <<set $npcExpression to "angry">>
+    <<expression Anai angry>>
     Kamiya: Oh, you're doing your modeling internship now? Figures since you’re going to college for a fashion design degree.
     Anai: Well no shet, do you not see this face?
     <<set $npcExpression to "smug">>
+    <<expression Anai smug>>
     Anai: I knew from the start model agencies would come running to me soon. But I do have to leave soon soo...
     Kamiya: ...
     Anai: Hurry up!
     <<set $npcExpression to "angry">>
+    <<expression Anai angry>>
     // give Anai a water bottle, no animation
     Kamiya: *Watches her run off without saying anything else* That was.. the first time we had an actual conversation without her making fun of me. Maybe she didn’t continue to make fun of me out of respect, or maybe she heard what happened to me and my family.
 
