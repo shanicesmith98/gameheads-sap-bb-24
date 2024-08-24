@@ -3,6 +3,7 @@ tags:
 ---
 <<declare $npcName = "Anai">>
 <<declare $npcExpression = "mono">>
+<<declare $foodItem = "poke">>
 
 Kamiya: Hello! Welcome to Paradise! How may I help you today–Crap it's Anai.
 Anai: Hmm.. wait a minute.. Kamiya, is that you?
@@ -16,6 +17,7 @@ Kamiya: Anai, what do you want? You making fun of me is wasting my time right no
 Anai: I came by this truck because I was just feeling thirsty but after seeing you here, I’ve also laughed up an appetite. So, give me a poke bowl, minimum wage worker.
 ->[Give Anai the poke bowl]
     // trigger food animation
+    <<set $foodItem to "poke">>
     Kamiya: One poke bowl... coming right up.
     Anai: Come on, get to work, Kamiya, bumbai I going cruise at silver stars.
     <<set $npcExpression to "smug">>
@@ -37,6 +39,8 @@ Anai: I came by this truck because I was just feeling thirsty but after seeing y
     <<expression Anai smug>>
     Kamiya: (Last time I when check, you were copying off my English assignments when you was to moloā to do 'em yourself.)
 ->[Yell at her]
+    <<set $foodItem to "none">>
+    Kamiya: One poke bowl... coming rig
     Kamiya: YA KNOW WHAT ANAI! YES I AM ONE MINIMUM WAGE WORKER BECAUSE UNLIKE YOUR ENTITLED RICH ASS I LOST NEARLY EVERYTHING WHEN THE FIRES IN MAUI HAPPENED!
     Anai: Brah, I was just kidding, you no need to-
     <<set $npcExpression to "mono">>
@@ -63,6 +67,8 @@ Anai: I came by this truck because I was just feeling thirsty but after seeing y
     Anai: Ugh, nah I lost my appetite since you don’t know how to take a joke. Just gimme a bottle of water, I need to keep my figure in shape anyways since I have a photoshoot later. 
     <<set $npcExpression to "angry">>
     <<expression Anai angry>>
+    <<set $foodItem to "water">>
+    Kamiya: One poke bowl... coming rig
     Kamiya: Oh, you're doing your modeling internship now? Figures since you’re going to college for a fashion design degree.
     Anai: Well no shet, do you not see this face?
     <<set $npcExpression to "smug">>
