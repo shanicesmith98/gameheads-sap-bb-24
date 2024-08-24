@@ -7,14 +7,12 @@ public class Menu : MonoBehaviour
 {
     public void OnPlayButton ()
     {
-        // TODO: Add progress bar to the loading screen
-        // SceneManager.LoadScene("LoadingScene");
         SceneManager.LoadScene("OpeningMontage");
     }
 
     public void OnOpeningContinueButton ()
     {
-         SceneManager.LoadScene(2);
+         SceneManager.LoadScene("LoadingScene");
     }
 
     public void OnQuitButton ()
