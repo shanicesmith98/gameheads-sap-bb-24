@@ -1,0 +1,332 @@
+﻿title: Start
+tags:
+---
+<<declare $npcName = "Anai">>
+<<declare $npcExpression = "mono">>
+<<declare $foodItem = "poke">>
+
+Kamiya: Hello! Welcome to Paradise! How may I help you today–Crap it's Anai.
+Anai: Hmm.. wait a minute.. Kamiya, is that you?
+<<set $npcExpression to "mono">>
+<<expression Anai mono>>
+Kamiya: ...Uh, hey, Anai.
+Anai: So, it really is you? WOW! This has got to be the highlight of my day so far! HAHAHA.
+<<set $npcExpression to "smug">>
+<<expression Anai smug>>
+Kamiya: Anai, what do you want? You making fun of me is wasting my time right now.
+Anai: I came by this truck because I was just feeling thirsty but after seeing you here, I’ve also laughed up an appetite. So, give me a poke bowl, minimum wage worker.
+->[Give Anai the poke bowl]
+    // trigger food animation
+    <<set $foodItem to "poke">>
+    Kamiya: One poke bowl... coming right up.
+    Anai: Come on, get to work, Kamiya, bumbai I going cruise at silver stars.
+    <<set $npcExpression to "smug">>
+    <<expression Anai smug>>
+    // give food item to player
+    Kamiya: There is your food and I hope you enjoyed parad-
+    Anai: Answer me this.
+    <<set $npcExpression to "mono">>
+    <<expression Anai mono>>
+    Anai: How did you go from going college for one culinary degree, to dropping out and working in one hamajang looking food truck? Like brah, this is a VERY sad sight to see!
+    <<set $npcExpression to "smug">>
+    <<expression Anai smug>>
+    Kamiya: Well Anai, some of us need to make a living somehow, not that you would know anything about that since you was born with one silver spoon in your mouth.
+    Anai: HA! NO get mad at me and at the end of the day, you bettah remember I’m still in college.
+    <<set $npcExpression to "angry">>
+    <<expression Anai angry>>
+    Anai: And you’re still one college dropout working in a food truck, See you later, wage worker.
+    <<set $npcExpression to "smug">>
+    <<expression Anai smug>>
+    Kamiya: (Last time I when check, you were copying off my English assignments when you was to moloā to do 'em yourself.)
+->[Yell at her]
+    <<set $foodItem to "none">>
+    Kamiya: One poke bowl... coming rig
+    Kamiya: YA KNOW WHAT ANAI! YES I AM ONE MINIMUM WAGE WORKER BECAUSE UNLIKE YOUR ENTITLED RICH ASS I LOST NEARLY EVERYTHING WHEN THE FIRES IN MAUI HAPPENED!
+    Anai: Brah, I was just kidding, you no need to-
+    <<set $npcExpression to "mono">>
+    <<expression Anai mono>>
+    Kamiya: Well there is nothing to be KIDDING about. You come over here for make fun of me for dropping out which is hella insensitive, ESPECIALLY if you don’t have a clue of what I’ve been through *My anger got the best of me, I didn’t notice I started to tear up*
+    Anai: …I’m…sorry…I guess?
+    <<set $npcExpression to "upset">>
+    <<expression Anai upset>>
+    Kamiya: You guess you're sorry? Are you that much in your own head you can’t even apologize properly? *rubs face in irritation*
+    Anai: I—
+    Kamiya: Just go, now!
+    // Anai leaves the scene
+    Kamiya: *She is acting like I dropped out of college just to drop out, God, that was so much to handle* 
+    Kamiya: *wipes face* 
+    Kamiya: I have to help other customers. I can't be working like this...
+->[Tell her to stop respectfully]
+    Kamiya: Anai... don’t call me that, please you’re making me uncomfortable.
+    Anai: Kamiya, stop being so sensitive. I was just making a joke.
+    Kamiya: Well, yeah I understand but once again, I no like your joke so chill.
+    Anai:  Still the sensitive type I see, just like in college.
+    <<set $npcExpression to "mono">>
+    <<expression Anai mono>>
+    Kamiya: Do you still want the poke bowl?
+    Anai: Ugh, nah I lost my appetite since you don’t know how to take a joke. Just gimme a bottle of water, I need to keep my figure in shape anyways since I have a photoshoot later. 
+    <<set $npcExpression to "angry">>
+    <<expression Anai angry>>
+    <<set $foodItem to "water">>
+    Kamiya: One poke bowl... coming rig
+    Kamiya: Oh, you're doing your modeling internship now? Figures since you’re going to college for a fashion design degree.
+    Anai: Well no shet, do you not see this face?
+    <<set $npcExpression to "smug">>
+    <<expression Anai smug>>
+    Anai: I knew from the start model agencies would come running to me soon. But I do have to leave soon soo...
+    Kamiya: ...
+    Anai: Hurry up!
+    <<set $npcExpression to "angry">>
+    <<expression Anai angry>>
+    // give Anai a water bottle, no animation
+    Kamiya: *Watches her run off without saying anything else* That was.. the first time we had an actual conversation without her making fun of me. Maybe she didn’t continue to make fun of me out of respect, or maybe she heard what happened to me and my family.
+
+<<wait 10>>
+<<jump Milo>>
+===
+
+title: Milo
+---
+<<set $npcName = "Milo">>
+<<set $npcExpression = "happy">>
+<<set $foodItem = "musubi">>
+
+Kamiya: Hello! Welcome to Paradise. How may I help you today?
+<<expression Milo happy>>
+Milo: KAMIYA! HOU, HOW YOU BEEN? 
+Kamiya: Wait a minute... MILO?!?!
+Milo:  Hey Kamiya, it's good to see you! And the FOOD TRUCK? Are you working here now? I haven’t seen this food active since we were little kids.
+Kamiya: Yeah, I know right? She is still in top shape though after all these years. I’m just working here just to kinda get by since the Maui fires.
+<<expression Milo questioning>>
+Milo: Oh yeah, how ARE you doing since the fires? You must be feeling really lost and in shock.
+Kamiya: I-
+->[Tell him you've been upset]
+    Kamiya: Well, to be honest Milo.. things been rough. Ever since the fires, I had to make HUGE sacrifices to help my family and try to get by myself by serving customers in the food truck.
+    <<expression Milo questioning>>
+    Milo: What kind of sacrifices?
+    Kamiya: I dropped out of college just to run the food truck because I need the money to get to repairing my life up again, and to top it off, I’m running it by myself so it's all on me. 
+    <<expression Milo mono>>
+    Milo: Yeah, I get ya, it's been hard for us since the Maui fires affected our lives, but hey, Kamiya, just know even if I’m far away...
+    <<expression Milo happy>>
+    Milo: I’ll be here for you. This is hard for everyone affected by these fires.
+    Kamiya: Mahalo Milo, but what do you mean by “Even if I'm far away?”.. Are you moving away or something?
+    <<expression Milo mono>>
+    Milo: Oh, um... Kamiya there is something I need to-
+    <<expression Milo angryKaren>>
+    Karen:  A-AHEM, excuse me if you’re just gonna be chatting all day then do that at home!
+    Kamiya: Oh sorry Milo, but I’m a little busy at the moment, how about you text me later? Or come by my place to visit!
+    <<expression Milo mono>>
+    Milo: Yeah okay! I’ll come by just text me..
+    Kamiya: I wonder what he had to tell me.. is it important?
+->[Tell him you've been good]
+    Kamiya: Oh, I’ve been good, Milo. I am trying to stay as positive as I can considering the whole situation.
+    <<expression Milo happy>>
+    Kamiya: They are good, they've been working really late at the Tourist Palace Hotel across from here, and staying there since they opened it for a temporary place to stay for families that suffered in the fires.
+    <<expression Milo questioning>>
+    Milo: Really? I thought they hated it there because of the rude tourists?
+    Kamiya: They do, but I mean living there for a bit while you get paid working there seems like a good option for them until we get our house rebuilt. What about you and your parents?
+    <<expression Milo mono>>
+    Milo: CHERREH! We are in the middle of packing right now to move houses.
+    Kamiya: Oh, you guys are going to the hotel now?
+    Milo: No. We are, um, we are moving to California to live with my Aunty for a bit, then staying there.
+    Kamiya: You’re MOVING? Oh wow…Growing up withchu since my hanabata days. I’ll miss you alot when you’re not gonna be here.
+    <<expression Milo angry>>
+    Milo: I know! I didn’t wanna move but my parents want a change of scenery since the fires so they wanted California since that where my mom’s sister is.
+    Kamiya: Well, how about I send you off with my famous spam musubis that you love so much!
+    // (Player clicks on food item, then gives it to the npc to trigger the rest of the dialogue)
+    <<expression Milo happy>>
+    Milo: Thanks Kamiya, I leave in two days, so I’ll come back later when you’re done to hangout with you! See ya. *walks away*
+    Kamiya: My best friend is leaving for California soon.. it's gonna be a little lonely without him here...
+->[Ask about him instead]
+    Kamiya: I’m wondering how you are doing lately? Last time I saw you was 2 weeks ago.
+    <<expression Milo angry>>
+    Milo: Bruh, working my butt off to save money, but I’ve been working so much it’s been really exhausting. You know me, I never run out of energy so for me to say that is ironic ain’t it.
+    Kamiya: Yeah, that’s the adult life, kid - get use to it.
+    <<expression Milo happy>>
+    Milo: Kid? You’re only two years older than me, AHAHA!
+    Kamiya: You’ll forever be my lil milo to me, haha, but what are you saving up for? You trying to buy something?
+    Milo: Oh, so Kamiya.. me and my family are in the middle of moving right now.
+    <<expression Milo mono>>
+    Kamiya: Oh, you guys are going to the hotel now?
+    Milo: No, we are moving to California to live with my Aunt for a moment, then we are getting a place there.
+    Kamiya: You’re moving? Oh wow... Watching you grow up together with me. I’ll miss you alot when you’re not gonna be here.
+    <<expression Milo angry>>
+    Milo: I know! I didn’t wanna move but my parents want a change of scenery since the fires so they wanted California since that where my mom’s sister is.
+    Kamiya: Well how about I send you off with my famous Spam musubi that you love so much?
+    // (Player clicks on food item, then gives it to the npc to trigger the rest of the dialogue)
+    <<expression Milo happy>>
+    Milo: Thanks Kamiya, I leave in two days, so I’ll come back later when you’re done to hangout with you! See ya! *walks away*
+    Kamiya: My best friend is leaving to California soon.. it's gonna be a little lonely without him here...
+
+
+<<wait 10>>
+<<jump Mike>>
+===
+
+title: Mike
+---
+
+<<set $npcName = "Mike">>
+<<set $npcExpression = "happy">>
+<<set $foodItem = "musubi">>
+
+Kamiya: Hello! Welcome to Paradise. How may I help you today?
+<<expression Mike happy>>
+Mike: HEY HEY HEY!!! This is a pretty cool food truck that’s near by this resort.
+Kamiya: Thank you, I am glad you decided to take a look at my truck! You’re staying at the famous tourist palace hotel?
+<<expression Mike lovestruck>>
+Mike: Oh, I am taking a look at more than just the truck, and yeah - you should come visit me sometimes.
+Kamiya: Uh, erm.. right.. Well, what can I get you?
+<<expression Mike happy>>
+Mike: Yeah, get me one of those spam Moo Shoe thingies, and if possible ya number, ahaha!
+Kamiya: *Is this guy serious?*
+->[Tell him he is making uncomfortable]
+    Kamiya: Uh, sir, although I am sure you don’t mean harm, your comments make me super uncomfortable so I would appreciate it if you stopped.
+    <<expression Mike mono>>
+    Mike: Oh, please it's just a little flirt okay, man. There is no need to be so negative.
+    Kamiya: Yeah well, I don’t like your flirting so can you stop, please?
+    Mike: Whatever you’re no fun,  give me the spam thing then.
+    // (The player makes the food then gives it to the npc, they don’t disappear yet until they said their last line)
+    <<expression Mike upset>>
+    Mike: I’m outta here good luck running this crappy food truck!
+    Kamiya: *watches him walk away* Rude... Sorry I didn’t give in to your flirting, creep.
+->[Serve him anyways]
+    Kamiya: Yeah.. sure, coming right up.
+    <<expression Mike lovestruck>>
+    Mike: Thanks cutie, Oh, by the way! I was exploring the area and saw so many buildings and areas burnt and destroyed. Pretty crazy huh!
+    <<expression Mike happy>>
+    Mike: This place is beautiful but I can never live here because I’m not risking becoming the next unfortunate soul that can risk losing everything. Am I right? Hahaha!
+    //(Player makes the food now. To indicate when to make it the dialogue will disappear, and won’t continue until the character made the food and give it to the NPC)
+    Mike: Thanks cutie for the food, I wanna get out of this heat. Take this little extra tip since you're cute and such. *Gives her $15 dollars*
+    Kamiya: ...Unfortunate soul? The nerve of that guy. Are all tourists like him insensitive?
+->[Shout at him for being a creep]
+    // (If this option is chosen then the player doesn’t need to click on any of the food items, it will just continue with the dialogue)
+    <<set $foodItem = "none">>
+    Kamiya: MY NUMBER! ARE YOU SERIOUS GET OUT OF HERE CREEP, I’M BUSY TRYING TO WORK.
+    <<expression Mike worried>>
+    Mike: Woah, hey, I was just being playful-
+    Kamiya: Well I don’t find you PLAYFUL AT ALL! I’M GOING THROUGH ALOT WITH THE FIRES HAPPENING HERE RECENTLY. Not like you tourists would know anything about that hardship, though!
+    Mike: Oh, you went through the fires I heard about that from locals... I’ll um go.
+    Mike: But as a sorry here you can take this change for the inconvenience *walks away*
+    Kamiya: *takes the $10 bill* Does he think he is doing a good service after that whole interaction? Tourist, I swear can never understand.
+
+<<wait 10>>
+<<jump Karen>>
+===
+title: Karen
+---
+
+<<set $npcName = "Karen">>
+<<set $npcExpression = "happy">>
+<<set $foodItem = "lemonade">>
+
+Kamiya: Hello! Welcome to Paradise. How may I help you today?
+<<expression Karen happy>>
+Karen: Hmm... this place will have to do despite how shabby it is?
+Kamiya: Ummm, okay... Well how can I help you?
+<<expression Karen mad>>
+Karen: Gimme a second, little girl. I’m picking what I want.
+Kamiya: ...
+Karen: ...
+Kamiya: ...
+Karen: ...
+Kamiya: *This lady is holding up the line, I need to serve other customers before the end of the day*
+->[Tell the lady to hurry up a bit]
+    <<set $foodItem = "none">>
+    Kamiya: Excuse me, I don’t mean to rush, but you’re kind of holding up the line.
+    <<expression Karen whining>>
+    Karen: EXCUSE YOU, ARE YOU RUSHING ME? I’m a paying customer and I am TAKING MY TIME.
+    Kamiya: Yeah well I understand, but ma’am I-
+    <<expression Karen mad>>
+    Karen: I swear you local Hawaiians aren’t as welcoming as the Hawaiians in the resort across from here. Cheap broke prices, this stuff probably going to give me food poisoning. *walks away*
+    Kamiya: …You Hawaiians? That’s gotta be racist.
+->[Rush her]
+    Kamiya: Little girl??? MA’AM, do not call me that. I am 21! I hate to rush, but hurry up, please.
+    <<expression Karen whining>>
+    Karen: Who are you telling to hurry up, LITTLE GIRL? Do you know who you’re talking to?
+    <<expression Karen cocky>>
+    Karen: I happen to be married to a successful man back in the state of New York. We are on vacation here, and you’re just a little peasant girl working here.
+    <<expression Karen mad>>
+    Karen: You can start talking more when you can afford to live in a penthouse like me.
+    Kamiya: AND YOU! Can get the hell away from my food truck. Actually I’ll give you a salad from my menu since I feel bad adding the the amount of calories you’re putting on.
+    <<expression Karen whining>>
+    Karen: How dare you! I’ll get the resort security and have you banned from working here.
+    Kamiya: I have a permit to work in this space! Unlike you I actually have to work hard to make a living for myself, not get stuff handed down to me. LEAVE.
+    Karen: Give me a lemonade and I GLADLY will. It's hot.
+    //(The player clicks the lemonade option, then gives it to the npcs, this will continue the rest of the dialogue)
+    Karen: *Walks away* NEVER COMING BACK.
+    Kamiya: Entitled people, I swear - talking about a penthouse in New York. Although sometimes I do wish I was living luxuries from time to time, but I rather be hardworking then just sit around all day getting stuff handed to me.
+
+->[Let her take her time]
+    <<set $foodItem = "poi">>
+    Kamiya: ...Ma’am if I may, can I suggest a dish? I believe you would enjoy the poi dish I made!
+    <<expression Karen concerned>>
+    Karen: Ya know what, I was looking at that! Is it sweet? I’m in the mood to eat something sweet right now.
+    Kamiya: Yes! I even added some extra treats and such in the dish!
+    <<expression Karen happy>>
+    Karen: Yeah okay! Serve me up! Uh...?
+    Kamiya: Kamiya is my name and this is my truck Paradise.
+    Karen: Oh you’re running this truck yourself? Really impressive that you're doing this good job.
+    Kamiya: Thank you, I’m just running it in the mean time to save up
+    <<expression Karen concerned>>
+    Karen: Saving up?
+    <<expression Karen cocky>>
+    Karen: Well, you’re a young pretty lady yourself. The best option if you want to get stuff faster and easier in life is get a rich husband like me.
+    // (Player clicks on poi, then gives it to the npc to trigger the rest of the dialogue)
+    <<expression Karen happy>>
+    Karen: *Gets food* Thanks! Bye, kid.
+    Kamiya: ...Thanks and I hope you enjoyed paradise... *Well we all can’t have stuff handed to us we sometimes have to work for it*
+
+<<wait  10>>
+<<jump Lao>>
+===
+title: Lao
+---
+
+<<set $npcName = "Lao">>
+<<set $npcExpression = "happy">>
+<<set $foodItem = "lemonade">>
+
+Aunty Lao: Hey, my sweet baby girl.
+Kamiya: AUNTY LAO!!! HOU HOW HAVE YOU BEEN?
+<<expression Lao happy>>
+Aunty Lao: Oh, I am doing fine. You really should be asking yourself that question.
+Kamiya: N-n-no worry about me, okay Aunty. I am just doing what my family needs me to do.
+<<expression Lao sad>>
+Aunty Lao: So you saying you no like any support? You just went through a natural disaster, I have seen you with some of these customers.
+Aunty Lao: You already know how hard it is to survive in Hawai’i, and to top it off, you lost almost everything.
+Kamiya: Aunty, I already said no worry about me.
+Aunty Lao: Well the way you stay acting making it hard for me to not care. I have know you for so long Kamiya.
+Aunty Lao: I have know your family for years, before you was even born you heard?
+Kamiya: I-I know Aunty, but I need to focus and lock in so my family can bounce back from this crap.
+Aunty Lao: Kamiya, you might tell yourself you are okay mentally, but you can be yourself around me.
+->[Open up to Lao]
+    Kamiya: Okay, if I am being honest then, I feel like I am broken. *wipes face* I LOST my home, dropped OUT of college, work a FOOD TRUCK, A DAMN FOOD TRUCK!!!
+    Kamiya: I feel like the world has just fallen all on top of me. I CAN BARELY KEEP MYSELF TOGETHER IN FRONT OF THESE CUSTOMERS!
+    Kamiya: I am having terrible moments whether it be with the tourists who kinda do not give a crap about what is going on in Hawai’i or my friends and people from college.
+    <<expression Lao sad>>
+    Aunty Lao: No worry Kamiya, let yourself grieve.
+    Kamiya: Sorry Aunty, I didn’t mean to raise my voice or almost interrogate you for answers.
+    <<expression Lao kind>>
+    Aunty Lao: Kamiya, I’m your Aunty Lao for god sake, I’m here to support you in any way I can. We will both make sure that you get the support you need.
+    Kamiya: Mahalo nui loa, Aunty Lao. Knowing you are here for me in my darkest times makes me feel like I can get over anything.
+    Kamiya: Quite a day. Well, time to wrap it up.
+->[Bottle up your emotions]
+    Kamiya: Aunty Lao, I appreciate what you are doing but I when already say I...am ... fine.
+    <<expression Lao upset>>
+    Aunty Lao: I know when you are troubled, okay. Just tell me what is going in your head.
+    Kamiya: I'M FINE OKAY, GET THE HELL OUT OF MY WAY!
+    Aunty Lao: Ka-Kamiya, what th-
+    Kamiya: PLEASE LEAVE ME. GET AWAY NOWWWWW!!!
+    <<expression Lao sad>>
+    Aunty Lao: No, I will not. If that means I have to leave you in this state.
+    Kamiya: I cannot, let you see me... like this.
+    Aunty Lao: Like what? Broken, hurt, lost, not hopeless. It would be weird if you didn’t feel this way.
+    Kamiya: I just need time for myself, ok. I love you Aunty Lao but, I cannot get over this with you over my shoulder 24/7.
+    Aunty Lao: I.. I understand. If that is how you really feel, I’ll respect that wish.
+    Kamiya: I am sorry, I never meant to yell at you.
+    <<expression Lao kind>>
+    Aunty Lao: We all have our bad days, and you stay experiencing it right now. Take your time.
+    Kamiya: O-Okay.
+
+===

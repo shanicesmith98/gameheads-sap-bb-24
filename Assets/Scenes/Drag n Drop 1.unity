@@ -238,23 +238,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &221301578 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2753718018764665327, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
-  m_PrefabInstance: {fileID: 1758747269}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &221301582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 221301578}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c085efcb128184435b00275089feeac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &268850555
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,7 +348,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362801617}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -373,8 +356,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 511, y: 275}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 75.377, y: 16.665634}
+  m_SizeDelta: {x: 49.245, y: 60.90935}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &362801619
 MonoBehaviour:
@@ -403,8 +386,8 @@ MonoBehaviour:
     Use spacebar to advance dialogue.
 
 
-    The
-    current food order for customers is salad, poi, spam musubi, and poke bowl.'
+    Click
+    Quit when finished with game.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -431,8 +414,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 4
+  m_fontSizeBase: 4
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -467,7 +450,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -96.81506, y: 0, z: -25.627563, w: 0}
+  m_margin: {x: -0.6038018, y: 0, z: 0.5309448, w: 0.26225013}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -777,6 +760,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1957322525300707523, guid: af23bf5b5c7024d57b97410b82822fce, type: 3}
       insertIndex: -1
       addedObject: {fileID: 507055050}
+    - targetCorrespondingSourceObject: {fileID: 1957322525300707523, guid: af23bf5b5c7024d57b97410b82822fce, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 507055054}
   m_SourcePrefab: {fileID: 100100000, guid: af23bf5b5c7024d57b97410b82822fce, type: 3}
 --- !u!1 &507055049 stripped
 GameObject:
@@ -893,6 +879,31 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &507055054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507055049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c233e8cdb386947c99f698de4fc4d088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expressions:
+  - name: happy
+    spriteExpression: {fileID: 21300000, guid: f546c8ecfef044f19ba947fdb8106337, type: 3}
+  - name: lovestruck
+    spriteExpression: {fileID: 21300000, guid: 6e6e73545f2614a0cbded2d171156ca2, type: 3}
+  - name: mono
+    spriteExpression: {fileID: 21300000, guid: 1e6025f476f5a4d98a81962c9e9d4b21, type: 3}
+  - name: upset
+    spriteExpression: {fileID: 21300000, guid: c4b674f70eb0947d5a4b7f7ecaf14a76, type: 3}
+  - name: worried
+    spriteExpression: {fileID: 21300000, guid: 9eb906cc89ee049e091c9fac5ab5663a, type: 3}
+  faceRenderer: {fileID: 507055052}
+  faceMaterialIndex: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,10 +1219,13 @@ PrefabInstance:
       addedObject: {fileID: 620359685}
     - targetCorrespondingSourceObject: {fileID: 78077888177447906, guid: 6a0f1cb8bf9874f8aa49fb02036511e4, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 620359684}
+      addedObject: {fileID: 620359683}
     - targetCorrespondingSourceObject: {fileID: 78077888177447906, guid: 6a0f1cb8bf9874f8aa49fb02036511e4, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 620359683}
+      addedObject: {fileID: 620359687}
+    - targetCorrespondingSourceObject: {fileID: 78077888177447906, guid: 6a0f1cb8bf9874f8aa49fb02036511e4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 620359688}
   m_SourcePrefab: {fileID: 100100000, guid: 6a0f1cb8bf9874f8aa49fb02036511e4, type: 3}
 --- !u!1 &620359682 stripped
 GameObject:
@@ -1263,19 +1277,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 6.13, y: 7.2}
   m_EdgeRadius: 0
---- !u!114 &620359684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620359682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd7da8172c5174691b9860513d9a5336, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  orderdMeat: Food2
 --- !u!212 &620359685
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1328,6 +1329,44 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &620359687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620359682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c233e8cdb386947c99f698de4fc4d088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expressions:
+  - name: happy
+    spriteExpression: {fileID: 21300000, guid: d41f9a186d7704d2ba6f8ac550cdc64d, type: 3}
+  - name: questioning
+    spriteExpression: {fileID: 21300000, guid: 8a806dbec51564d82b60a59c28c3384a, type: 3}
+  - name: angry
+    spriteExpression: {fileID: 21300000, guid: a2ef7a4768ebb4851a60577174318b53, type: 3}
+  - name: mono
+    spriteExpression: {fileID: 21300000, guid: 55fc45944163d4c08be00f53e71f8537, type: 3}
+  - name: angryKaren
+    spriteExpression: {fileID: 21300000, guid: d1153c22891a249149f5fd616278e939, type: 3}
+  faceRenderer: {fileID: 620359685}
+  faceMaterialIndex: 0
+--- !u!114 &620359688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620359682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d51f39f3768454630aa9225616499b5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orderdMeat: Food1
 --- !u!1 &828482376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,10 +1415,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 200, y: 200}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1408,7 +1447,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &828482380
 RectTransform:
@@ -1505,6 +1544,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3143082448696297517, guid: 4e14af61b405746c1a919414020f8468, type: 3}
       insertIndex: -1
       addedObject: {fileID: 845580276}
+    - targetCorrespondingSourceObject: {fileID: 3143082448696297517, guid: 4e14af61b405746c1a919414020f8468, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 845580280}
   m_SourcePrefab: {fileID: 100100000, guid: 4e14af61b405746c1a919414020f8468, type: 3}
 --- !u!1 &845580272 stripped
 GameObject:
@@ -1524,6 +1566,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orderdMeat: Food3
+--- !u!212 &845580277 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2691684455705117169, guid: 4e14af61b405746c1a919414020f8468, type: 3}
+  m_PrefabInstance: {fileID: 845580271}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &845580280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845580272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c233e8cdb386947c99f698de4fc4d088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expressions:
+  - name: happy
+    spriteExpression: {fileID: 21300000, guid: 89d7f0a7792fe401a8cfabd5a17df125, type: 3}
+  - name: kind
+    spriteExpression: {fileID: 21300000, guid: 042597dd0f6cf4422a7ca90826db375d, type: 3}
+  - name: sad
+    spriteExpression: {fileID: 21300000, guid: a5243164a921942eb82f85ba8a0ec2d8, type: 3}
+  - name: upset
+    spriteExpression: {fileID: 21300000, guid: 8606fa53623614ebb9b4a172d37f2d25, type: 3}
+  faceRenderer: {fileID: 845580277}
+  faceMaterialIndex: 0
 --- !u!1 &1005052691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1881,6 +1951,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 323600682343310704, guid: 6184ffd0add794a0890890dca6b0eaf4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1766300984}
+    - targetCorrespondingSourceObject: {fileID: 323600682343310704, guid: 6184ffd0add794a0890890dca6b0eaf4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1766300987}
+    - targetCorrespondingSourceObject: {fileID: 323600682343310704, guid: 6184ffd0add794a0890890dca6b0eaf4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1766300988}
   m_SourcePrefab: {fileID: 100100000, guid: 6184ffd0add794a0890890dca6b0eaf4, type: 3}
 --- !u!1 &1252132965
 GameObject:
@@ -2656,10 +2732,7 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 7778558434935992802, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2753718018764665327, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 221301582}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f29e5f7ffdea4a6793cefb278b61f0c, type: 3}
 --- !u!1 &1766300983 stripped
 GameObject:
@@ -2763,6 +2836,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1766300987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766300983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35f7c44f0bd0a494cba7f71f582ac004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orderdMeat: Food6
+--- !u!114 &1766300988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766300983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c233e8cdb386947c99f698de4fc4d088, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expressions:
+  - name: Whining
+    spriteExpression: {fileID: 21300000, guid: 4a2b147cfae024ba0a82a732f6bb05d2, type: 3}
+  - name: Mad
+    spriteExpression: {fileID: 21300000, guid: d1153c22891a249149f5fd616278e939, type: 3}
+  - name: Happy
+    spriteExpression: {fileID: 21300000, guid: edfe383a7874a4ac7b2e4f6c0bfb34b7, type: 3}
+  - name: Concerned
+    spriteExpression: {fileID: 21300000, guid: a97986a5d081844a9a80ecd2929156a2, type: 3}
+  faceRenderer: {fileID: 1766300985}
+  faceMaterialIndex: 0
 --- !u!1 &1927340812
 GameObject:
   m_ObjectHideFlags: 0
@@ -3427,6 +3536,7 @@ SceneRoots:
   - {fileID: 1588193250}
   - {fileID: 519420032}
   - {fileID: 268850557}
+  - {fileID: 828482380}
   - {fileID: 2117493139}
   - {fileID: 1484956621}
   - {fileID: 1976856082}
@@ -3445,4 +3555,3 @@ SceneRoots:
   - {fileID: 1997610930}
   - {fileID: 94389991}
   - {fileID: 1562870396}
-  - {fileID: 828482380}
