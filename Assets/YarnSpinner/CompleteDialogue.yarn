@@ -260,22 +260,73 @@ Kamiya: *This lady is holding up the line, I need to serve other customers befor
 ->[Let her take her time]
     <<set $foodItem = "poi">>
     Kamiya: ...Ma’am if I may, can I suggest a dish? I believe you would enjoy the poi dish I made!
-    Karen: Ya know what, I was looking at that! Is it sweet? I’m in the mood to eat something sweet right now (Concerned face)
-
+    <<expression Karen concerned>>
+    Karen: Ya know what, I was looking at that! Is it sweet? I’m in the mood to eat something sweet right now.
     Kamiya: Yes! I even added some extra treats and such in the dish!
+    <<expression Karen happy>>
+    Karen: Yeah okay! Serve me up! Uh...?
+    Kamiya: Kamiya is my name and this is my truck Paradise.
+    Karen: Oh you’re running this truck yourself? Really impressive that you're doing this good job.
+    Kamiya: Thank you, I’m just running it in the mean time to save up
+    <<expression Karen concerned>>
+    Karen: Saving up?
+    <<expression Karen cocky>>
+    Karen: Well, you’re a young pretty lady yourself. The best option if you want to get stuff faster and easier in life is get a rich husband like me.
+    // (Player clicks on poi, then gives it to the npc to trigger the rest of the dialogue)
+    <<expression Karen happy>>
+    Karen: *Gets food* Thanks! Bye, kid.
+    Kamiya: ...Thanks and I hope you enjoyed paradise... *Well we all can’t have stuff handed to us we sometimes have to work for it*
 
-    Karen: Yeah okay! Serve me up! Uh…? (Happy face)
-
-    Kamiya: Kamiya is my name and this is my truck Paradise
-
-    Karen: Oh you’re running this truck yourself? Really impressive that your doing this good job (Happy face)
-
-    Kamiya: Thank you I’m just running it in the mean time to save up
-
-
-
+<<wait  10>>
+<<jump Lao>>
 ===
-title: Lau
+title: Lao
 ---
+
+<<set $npcName = "Lao">>
+<<set $npcExpression = "happy">>
+<<set $foodItem = "lemonade">>
+
+Aunty Lao: Hey, my sweet baby girl.
+Kamiya: AUNTY LAO!!! HOU HOW HAVE YOU BEEN?
+<<expression Lao happy>>
+Aunty Lao: Oh, I am doing fine. You really should be asking yourself that question.
+Kamiya: N-n-no worry about me, okay Aunty. I am just doing what my family needs me to do.
+<<expression Lao sad>>
+Aunty Lao: So you saying you no like any support? You just went through a natural disaster, I have seen you with some of these customers.
+Aunty Lao: You already know how hard it is to survive in Hawai’i, and to top it off, you lost almost everything.
+Kamiya: Aunty, I already said no worry about me.
+Aunty Lao: Well the way you stay acting making it hard for me to not care. I have know you for so long Kamiya.
+Aunty Lao: I have know your family for years, before you was even born you heard?
+Kamiya: I-I know Aunty, but I need to focus and lock in so my family can bounce back from this crap.
+Aunty Lao: Kamiya, you might tell yourself you are okay mentally, but you can be yourself around me.
+->[Open up to Lao]
+    Kamiya: Okay, if I am being honest then, I feel like I am broken. *wipes face* I LOST my home, dropped OUT of college, work a FOOD TRUCK, A DAMN FOOD TRUCK!!!
+    Kamiya: I feel like the world has just fallen all on top of me. I CAN BARELY KEEP MYSELF TOGETHER IN FRONT OF THESE CUSTOMERS!
+    Kamiya: I am having terrible moments whether it be with the tourists who kinda do not give a crap about what is going on in Hawai’i or my friends and people from college.
+    <<expression Lao sad>>
+    Aunty Lao: No worry Kamiya, let yourself grieve.
+    Kamiya: Sorry Aunty, I didn’t mean to raise my voice or almost interrogate you for answers.
+    <<expression Lao kind>>
+    Aunty Lao: Kamiya, I’m your Aunty Lao for god sake, I’m here to support you in any way I can. We will both make sure that you get the support you need.
+    Kamiya: Mahalo nui loa, Aunty Lao. Knowing you are here for me in my darkest times makes me feel like I can get over anything.
+    Kamiya: Quite a day. Well, time to wrap it up.
+->[Bottle up your emotions]
+    Kamiya: Aunty Lao, I appreciate what you are doing but I when already say I...am ... fine.
+    <<expression Lao upset>>
+    Aunty Lao: I know when you are troubled, okay. Just tell me what is going in your head.
+    Kamiya: I'M FINE OKAY, GET THE HELL OUT OF MY WAY!
+    Aunty Lao: Ka-Kamiya, what th-
+    Kamiya: PLEASE LEAVE ME. GET AWAY NOWWWWW!!!
+    <<expression Lao sad>>
+    Aunty Lao: No, I will not. If that means I have to leave you in this state.
+    Kamiya: I cannot, let you see me... like this.
+    Aunty Lao: Like what? Broken, hurt, lost, not hopeless. It would be weird if you didn’t feel this way.
+    Kamiya: I just need time for myself, ok. I love you Aunty Lao but, I cannot get over this with you over my shoulder 24/7.
+    Aunty Lao: I.. I understand. If that is how you really feel, I’ll respect that wish.
+    Kamiya: I am sorry, I never meant to yell at you.
+    <<expression Lao kind>>
+    Aunty Lao: We all have our bad days, and you stay experiencing it right now. Take your time.
+    Kamiya: O-Okay.
 
 ===
