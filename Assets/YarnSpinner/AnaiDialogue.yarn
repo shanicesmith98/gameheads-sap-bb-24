@@ -81,5 +81,101 @@ Anai: I came by this truck because I was just feeling thirsty but after seeing y
     // give Anai a water bottle, no animation
     Kamiya: *Watches her run off without saying anything else* That was.. the first time we had an actual conversation without her making fun of me. Maybe she didn’t continue to make fun of me out of respect, or maybe she heard what happened to me and my family.
 
+<<wait 10>>
+<<jump Milo>>
+===
+
+title: Milo
+---
+<<set $npcName = "Milo">>
+<<set $npcExpression = "happy">>
+<<set $foodItem = "musubi">>
+
+Kamiya: Hello! Welcome to Paradise. How may I help you today?
+<<expression Milo happy>>
+Milo: KAMIYA! HOU, HOW YOU BEEN? 
+Kamiya: Wait a minute... MILO?!?!
+Milo:  Hey Kamiya, it's good to see you! And the FOOD TRUCK? Are you working here now? I haven’t seen this food active since we were little kids.
+Kamiya: Yeah, I know right? She is still in top shape though after all these years. I’m just working here just to kinda get by since the Maui fires.
+<<expression Milo questioning>>
+Milo: Oh yeah, how ARE you doing since the fires? You must be feeling really lost and in shock.
+Kamiya: I-
+->[Tell him you've been upset]
+    Kamiya: Well, to be honest Milo.. things been rough. Ever since the fires, I had to make HUGE sacrifices to help my family and try to get by myself by serving customers in the food truck.
+    <<expression Milo questioning>>
+    Milo: What kind of sacrifices?
+    Kamiya: I dropped out of college just to run the food truck because I need the money to get to repairing my life up again, and to top it off, I’m running it by myself so it's all on me. 
+    <<expression Milo mono>>
+    Milo: Yeah, I get ya, it's been hard for us since the Maui fires affected our lives, but hey, Kamiya, just know even if I’m far away...
+    <<expression Milo happy>>
+    Milo: I’ll be here for you. This is hard for everyone affected by these fires.
+    Kamiya: Mahalo Milo, but what do you mean by “Even if I'm far away?”.. Are you moving away or something?
+    <<expression Milo mono>>
+    Milo: Oh, um... Kamiya there is something I need to-
+    <<expression Milo angryKaren>>
+    Karen:  A-AHEM, excuse me if you’re just gonna be chatting all day then do that at home!
+    Kamiya: Oh sorry Milo, but I’m a little busy at the moment, how about you text me later? Or come by my place to visit!
+    <<expression Milo mono>>
+    Milo: Yeah okay! I’ll come by just text me..
+    Kamiya: I wonder what he had to tell me.. is it important?
+->[Tell him you've been good]
+    Kamiya: Oh, I’ve been good, Milo. I am trying to stay as positive as I can considering the whole situation.
+    <<expression Milo happy>>
+    Kamiya: They are good, they've been working really late at the Tourist Palace Hotel across from here, and staying there since they opened it for a temporary place to stay for families that suffered in the fires.
+    <<expression Milo questioning>>
+    Milo: Really? I thought they hated it there because of the rude tourists?
+    Kamiya: They do, but I mean living there for a bit while you get paid working there seems like a good option for them until we get our house rebuilt. What about you and your parents?
+    <<expression Milo mono>>
+    Milo: CHERREH! We are in the middle of packing right now to move houses.
+    Kamiya: Oh, you guys are going to the hotel now?
+    Milo: No. We are, um, we are moving to California to live with my Aunty for a bit, then staying there.
+    Kamiya: You’re MOVING? Oh wow…Growing up withchu since my hanabata days. I’ll miss you alot when you’re not gonna be here.
+    <<expression Milo angry>>
+    Milo: I know! I didn’t wanna move but my parents want a change of scenery since the fires so they wanted California since that where my mom’s sister is.
+    Kamiya: Well, how about I send you off with my famous spam musubis that you love so much!
+    // (Player clicks on food item, then gives it to the npc to trigger the rest of the dialogue)
+    <<expression Milo happy>>
+    Milo: Thanks Kamiya, I leave in two days, so I’ll come back later when you’re done to hangout with you! See ya. *walks away*
+    Kamiya: My best friend is leaving for California soon.. it's gonna be a little lonely without him here...
+->[Ask about him instead]
+    Kamiya: I’m wondering how you are doing lately? Last time I saw you was 2 weeks ago.
+    <<expression Milo angry>>
+    Milo: Bruh, working my butt off to save money, but I’ve been working so much it’s been really exhausting. You know me, I never run out of energy so for me to say that is ironic ain’t it.
+    Kamiya: Yeah, that’s the adult life, kid - get use to it.
+    <<expression Milo happy>>
+    Milo: Kid? You’re only two years older than me, AHAHA!
+    Kamiya: You’ll forever be my lil milo to me, haha, but what are you saving up for? You trying to buy something?
+    Milo: Oh, so Kamiya.. me and my family are in the middle of moving right now.
+    <<expression Milo mono>>
+    Kamiya: Oh, you guys are going to the hotel now?
+    Milo: No, we are moving to California to live with my Aunt for a moment, then we are getting a place there.
+    Kamiya: You’re moving? Oh wow... Watching you grow up together with me. I’ll miss you alot when you’re not gonna be here.
+    <<expression Milo angry>>
+    Milo: I know! I didn’t wanna move but my parents want a change of scenery since the fires so they wanted California since that where my mom’s sister is.
+    Kamiya: Well how about I send you off with my famous Spam musubi that you love so much?
+    // (Player clicks on food item, then gives it to the npc to trigger the rest of the dialogue)
+    <<expression Milo happy>>
+    Milo: Thanks Kamiya, I leave in two days, so I’ll come back later when you’re done to hangout with you! See ya! *walks away*
+    Kamiya: My best friend is leaving to California soon.. it's gonna be a little lonely without him here...
+
+
+<<wait 10>>
+<<jump Mike>>
+===
+
+title: Mike
+---
+
+<<set $npcName = "Mike">>
+<<set $npcExpression = "happy">>
+<<set $foodItem = "musubi">>
+
+===
+title: Karen
+---
+
+===
+title: Lau
+---
 
 ===
