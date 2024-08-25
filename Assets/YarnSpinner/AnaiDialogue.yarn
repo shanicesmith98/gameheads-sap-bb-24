@@ -170,9 +170,109 @@ title: Mike
 <<set $npcExpression = "happy">>
 <<set $foodItem = "musubi">>
 
+Kamiya: Hello! Welcome to Paradise. How may I help you today?
+<<expression Mike happy>>
+Mike: HEY HEY HEY!!! This is a pretty cool food truck that’s near by this resort.
+Kamiya: Thank you, I am glad you decided to take a look at my truck! You’re staying at the famous tourist palace hotel?
+<<expression Mike lovestruck>>
+Mike: Oh, I am taking a look at more than just the truck, and yeah - you should come visit me sometimes.
+Kamiya: Uh, erm.. right.. Well, what can I get you?
+<<expression Mike happy>>
+Mike: Yeah, get me one of those spam Moo Shoe thingies, and if possible ya number, ahaha!
+Kamiya: *Is this guy serious?*
+->[Tell him he is making uncomfortable]
+    Kamiya: Uh, sir, although I am sure you don’t mean harm, your comments make me super uncomfortable so I would appreciate it if you stopped.
+    <<expression Mike mono>>
+    Mike: Oh, please it's just a little flirt okay, man. There is no need to be so negative.
+    Kamiya: Yeah well, I don’t like your flirting so can you stop, please?
+    Mike: Whatever you’re no fun,  give me the spam thing then.
+    // (The player makes the food then gives it to the npc, they don’t disappear yet until they said their last line)
+    <<expression Mike upset>>
+    Mike: I’m outta here good luck running this crappy food truck!
+    Kamiya: *watches him walk away* Rude... Sorry I didn’t give in to your flirting, creep.
+->[Serve him anyways]
+    Kamiya: Yeah.. sure, coming right up.
+    <<expression Mike lovestruck>>
+    Mike: Thanks cutie, Oh, by the way! I was exploring the area and saw so many buildings and areas burnt and destroyed. Pretty crazy huh!
+    <<expression Mike happy>>
+    Mike: This place is beautiful but I can never live here because I’m not risking becoming the next unfortunate soul that can risk losing everything. Am I right? Hahaha!
+    //(Player makes the food now. To indicate when to make it the dialogue will disappear, and won’t continue until the character made the food and give it to the NPC)
+    Mike: Thanks cutie for the food, I wanna get out of this heat. Take this little extra tip since you're cute and such. *Gives her $15 dollars*
+    Kamiya: ...Unfortunate soul? The nerve of that guy. Are all tourists like him insensitive?
+->[Shout at him for being a creep]
+    // (If this option is chosen then the player doesn’t need to click on any of the food items, it will just continue with the dialogue)
+    <<set $foodItem = "none">>
+    Kamiya: MY NUMBER! ARE YOU SERIOUS GET OUT OF HERE CREEP, I’M BUSY TRYING TO WORK.
+    <<expression Mike worried>>
+    Mike: Woah, hey, I was just being playful-
+    Kamiya: Well I don’t find you PLAYFUL AT ALL! I’M GOING THROUGH ALOT WITH THE FIRES HAPPENING HERE RECENTLY. Not like you tourists would know anything about that hardship, though!
+    Mike: Oh, you went through the fires I heard about that from locals... I’ll um go.
+    Mike: But as a sorry here you can take this change for the inconvenience *walks away*
+    Kamiya: *takes the $10 bill* Does he think he is doing a good service after that whole interaction? Tourist, I swear can never understand.
+
+<<wait 10>>
+<<jump Karen>>
 ===
 title: Karen
 ---
+
+<<set $npcName = "Karen">>
+<<set $npcExpression = "happy">>
+<<set $foodItem = "lemonade">>
+
+Kamiya: Hello! Welcome to Paradise. How may I help you today?
+<<expression Karen happy>>
+Karen: Hmm... this place will have to do despite how shabby it is?
+Kamiya: Ummm, okay... Well how can I help you?
+<<expression Karen mad>>
+Karen: Gimme a second, little girl. I’m picking what I want.
+Kamiya: ...
+Karen: ...
+Kamiya: ...
+Karen: ...
+Kamiya: *This lady is holding up the line, I need to serve other customers before the end of the day*
+->[Tell the lady to hurry up a bit]
+    <<set $foodItem = "none">>
+    Kamiya: Excuse me, I don’t mean to rush, but you’re kind of holding up the line.
+    <<expression Karen whining>>
+    Karen: EXCUSE YOU, ARE YOU RUSHING ME? I’m a paying customer and I am TAKING MY TIME.
+    Kamiya: Yeah well I understand, but ma’am I-
+    <<expression Karen mad>>
+    Karen: I swear you local Hawaiians aren’t as welcoming as the Hawaiians in the resort across from here. Cheap broke prices, this stuff probably going to give me food poisoning. *walks away*
+    Kamiya: …You Hawaiians? That’s gotta be racist.
+->[Rush her]
+    Kamiya: Little girl??? MA’AM, do not call me that. I am 21! I hate to rush, but hurry up, please.
+    <<expression Karen whining>>
+    Karen: Who are you telling to hurry up, LITTLE GIRL? Do you know who you’re talking to?
+    <<expression Karen cocky>>
+    Karen: I happen to be married to a successful man back in the state of New York. We are on vacation here, and you’re just a little peasant girl working here.
+    <<expression Karen mad>>
+    Karen: You can start talking more when you can afford to live in a penthouse like me.
+    Kamiya: AND YOU! Can get the hell away from my food truck. Actually I’ll give you a salad from my menu since I feel bad adding the the amount of calories you’re putting on.
+    <<expression Karen whining>>
+    Karen: How dare you! I’ll get the resort security and have you banned from working here.
+    Kamiya: I have a permit to work in this space! Unlike you I actually have to work hard to make a living for myself, not get stuff handed down to me. LEAVE.
+    Karen: Give me a lemonade and I GLADLY will. It's hot.
+    //(The player clicks the lemonade option, then gives it to the npcs, this will continue the rest of the dialogue)
+    Karen: *Walks away* NEVER COMING BACK.
+    Kamiya: Entitled people, I swear - talking about a penthouse in New York. Although sometimes I do wish I was living luxuries from time to time, but I rather be hardworking then just sit around all day getting stuff handed to me.
+
+->[Let her take her time]
+    <<set $foodItem = "poi">>
+    Kamiya: ...Ma’am if I may, can I suggest a dish? I believe you would enjoy the poi dish I made!
+    Karen: Ya know what, I was looking at that! Is it sweet? I’m in the mood to eat something sweet right now (Concerned face)
+
+    Kamiya: Yes! I even added some extra treats and such in the dish!
+
+    Karen: Yeah okay! Serve me up! Uh…? (Happy face)
+
+    Kamiya: Kamiya is my name and this is my truck Paradise
+
+    Karen: Oh you’re running this truck yourself? Really impressive that your doing this good job (Happy face)
+
+    Kamiya: Thank you I’m just running it in the mean time to save up
+
+
 
 ===
 title: Lau
