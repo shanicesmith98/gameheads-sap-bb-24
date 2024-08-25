@@ -1585,13 +1585,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   expressions:
   - name: happy
-    spriteExpression: {fileID: 0}
+    spriteExpression: {fileID: 21300000, guid: 89d7f0a7792fe401a8cfabd5a17df125, type: 3}
   - name: kind
-    spriteExpression: {fileID: 0}
+    spriteExpression: {fileID: 21300000, guid: 042597dd0f6cf4422a7ca90826db375d, type: 3}
   - name: sad
-    spriteExpression: {fileID: 0}
+    spriteExpression: {fileID: 21300000, guid: a5243164a921942eb82f85ba8a0ec2d8, type: 3}
   - name: upset
-    spriteExpression: {fileID: 0}
+    spriteExpression: {fileID: 21300000, guid: 8606fa53623614ebb9b4a172d37f2d25, type: 3}
   faceRenderer: {fileID: 845580277}
   faceMaterialIndex: 0
 --- !u!1 &1005052691
