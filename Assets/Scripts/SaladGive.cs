@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SaladGive : MonoBehaviour
 {
-    public string orderdMeat = "Food4";
+    public string orderdMeat = "Food Name Here";
 
     // Start is called before the first frame update
     void Start()

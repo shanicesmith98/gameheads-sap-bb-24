@@ -19,32 +19,32 @@ public class Dragger : MonoBehaviour {
             transform.position = objPosition;
             if (gameObject.name == "Musubi(Clone)")
             {
-                gameplay.currentFood = "Food1";
+                gameplay.currentFood = "Musubi";
             }
             else
                 if (gameObject.name == "Poi(Clone)")
             {
-                gameplay.currentFood = "Food2";
+                gameplay.currentFood = "ShaveIce";
             }
             else
                 if (gameObject.name == "Poke(Clone)")
             {
-                gameplay.currentFood = "Food3";
+                gameplay.currentFood = "Poke";
             }
             else
                 if (gameObject.name == "Salad(Clone)")
             {
-                gameplay.currentFood = "Food4";
+                gameplay.currentFood = "Salad";
             }
             else
                 if (gameObject.name == "Water(Clone)")
             {
-                gameplay.currentFood = "Food5";
+                gameplay.currentFood = "Water";
             }
             else
                 if (gameObject.name == "Lemonade(Clone)")
             {
-                gameplay.currentFood = "Food6";
+                gameplay.currentFood = "Lemonade";
             }
         }
 
