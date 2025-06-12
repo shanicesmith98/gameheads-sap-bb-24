@@ -13,7 +13,7 @@ This is a GameHeads SAP Project from Taj, Ka'imipono, Aonee, Shanice, Christophe
 - Unity Version: 2022.3.23f1
 
 
-
+Itch: https://gameheads.itch.io/enjoy-your-stay-in-paradise
 
 Trello: https://trello.com/b/2G0NRSCu/project-management
 
